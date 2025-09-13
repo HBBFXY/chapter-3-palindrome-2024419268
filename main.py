@@ -1,4 +1,4 @@
-sum=input("请输入一个五位数:")
+num=input("请输入一个五位数:")
 if len(num)!=5 or ont num.isdigit():
    print("输入错误，请输入一个五位数。")
 else:
