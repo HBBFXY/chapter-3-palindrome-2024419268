@@ -1,6 +1,6 @@
-num=input("请输入一个五位数：")
-if len(num)!=5 or not num.isdigit():
-    print("输入错误，请输入一个五位数。")
+sum=input("请输入一个五位数:")
+if len(num)!=5 or ont num.isdigit():
+   print("输入错误，请输入一个五位数。")
 else:
     reversed_num=num[::-1]
     if num==reversed_num:
